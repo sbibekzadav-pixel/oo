@@ -35,7 +35,8 @@
         {
           "locationAlwaysAndWhenInUsePermission": "Allow OrderMe to use your location to find nearby services."
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "extra": {
       "eas": {
