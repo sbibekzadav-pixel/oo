@@ -153,7 +153,7 @@ export default function ChatsScreen({ navigation }) {
         <Text style={[styles.headerTitle, { color: colors.text }]}>Messages</Text>
         <TouchableOpacity
           style={[styles.composeBtn, { backgroundColor: colors.primaryLight }]}
-          onPress={() => navigation.navigate('Services')}
+          onPress={() => navigation.navigate('MainTabs', { screen: 'Services' })}
           activeOpacity={0.7}
         >
           <Ionicons name="create-outline" size={20} color={colors.primary} />
@@ -219,7 +219,7 @@ export default function ChatsScreen({ navigation }) {
               </Text>
               <TouchableOpacity
                 style={[styles.emptyBtn, { backgroundColor: colors.primary }]}
-                onPress={() => navigation.navigate('Services')}
+                onPress={() => navigation.navigate('MainTabs', { screen: 'Services' })}
               >
                 <Text style={styles.emptyBtnText}>Browse Services</Text>
               </TouchableOpacity>

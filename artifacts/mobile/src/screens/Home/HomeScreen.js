@@ -326,7 +326,7 @@ export default function HomeScreen({ navigation }) {
         <AnimatedCard delay={200}>
           <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>{t('popularServices')}</Text>
-            <TouchableOpacity onPress={() => navigation.navigate('Services')}>
+            <TouchableOpacity onPress={() => navigation.navigate('MainTabs', { screen: 'Services' })}>
               <Text style={styles.viewAll}>{t('viewAll')}</Text>
             </TouchableOpacity>
           </View>
@@ -366,7 +366,7 @@ export default function HomeScreen({ navigation }) {
         <AnimatedCard delay={250}>
           <View style={styles.sectionHeader}>
             <Text style={styles.sectionTitle}>{t('popularNearYou')}</Text>
-            <TouchableOpacity onPress={() => navigation.navigate('Services')}>
+            <TouchableOpacity onPress={() => navigation.navigate('MainTabs', { screen: 'Services' })}>
               <Text style={styles.viewAll}>{t('viewAll')}</Text>
             </TouchableOpacity>
           </View>
@@ -385,7 +385,7 @@ export default function HomeScreen({ navigation }) {
       <VoiceSearchModal
         visible={voiceModalVisible}
         onClose={() => setVoiceModalVisible(false)}
-        onSpeechResult={() => navigation.navigate('Services')}
+        onSpeechResult={() => navigation.navigate('MainTabs', { screen: 'Services' })}
       />
 
     </SafeAreaView>

@@ -72,11 +72,17 @@ export default function ServiceWhereWhatFlow({ onSearch, compact = false }) {
   }, [whatSlug, whatLabel, language]);
 
   const onSelectWhat = useCallback((slug, label) => {
+    if (whatSlug === slug) {
+      setWhat(null, null);
+      setWhatModalVisible(false);
+      setWhatQuery('');
+      return;
+    }
     const localized = getLocalizedServiceLabel(slug, label, language);
     setWhat(slug, localized);
     setWhatModalVisible(false);
     setWhatQuery('');
-  }, [setWhat, language]);
+  }, [setWhat, whatSlug, language]);
 
   const onSelectWhere = useCallback((loc) => {
     setWhereFromLoc(loc);
@@ -324,7 +330,7 @@ function PickerModal({
           <Text style={[styles.sheetSub, { color: colors.textSecondary }]}>{subtitle}</Text>
           {!hideSearch ? (
             <>
-              <View style={[styles.searchInputWrap, { borderColor: colors.border }]}>
+              <View style={[styles.searchInputWrap, { borderColor: colors.border, backgroundColor: colors.inputBg || colors.surfaceAlt }]}>
                 <Ionicons name="search" size={18} color={colors.textLight} />
                 <TextInput
                   style={[styles.searchInput, { color: colors.text }]}

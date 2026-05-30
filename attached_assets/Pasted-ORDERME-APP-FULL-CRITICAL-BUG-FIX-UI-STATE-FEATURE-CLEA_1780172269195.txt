@@ -1,0 +1,226 @@
+ORDERME APP – FULL CRITICAL BUG FIX + UI STATE + FEATURE CLEANUP
+
+Project: React Native + Expo + Firebase
+
+Perform a complete production-level audit and fix ALL UI, state, navigation, and Firebase issues. Do NOT add new features. Only fix broken logic and unstable behavior.
+
+========================================
+
+1. WHAT YOU WANT (SERVICE SELECTION FIX)
+   ========================================
+
+Current Issues:
+
+* When user selects "Hotel", it stays selected incorrectly.
+* Same service appears multiple times.
+* Cannot properly toggle/deselect service.
+* Clicking same service again does NOT unselect it.
+* Selection state becomes stale after navigation.
+
+Required Fix:
+
+* Make service selection TOGGLE based system.
+* If user clicks same item again → deselect it.
+* Add X button on selected chip for manual remove.
+* Only ONE service can be active at a time.
+
+Correct Behavior:
+
+Tap "Hotel" → selected
+Tap "Hotel again" → deselected
+Tap "Hotel X" → deselected
+
+========================================
+2. SELECTED SERVICE CHIP UI
+===========================
+
+Fix UI:
+
+* Selected service must show as a TOP CHIP.
+* Chip must always stay visible at top.
+* Chip must not duplicate.
+
+Example:
+
+[ 🏨 Hotel ✕ ]
+
+Requirements:
+
+* Tap chip OR tap X → remove selection instantly
+* Smooth UI update
+* No duplicates ever
+* Responsive layout
+
+========================================
+3. WHERE YOU WANT IT (LOCATION FLOW FIX)
+========================================
+
+Current Issues:
+
+* Selected service (Hotel) wrongly appears inside "Where do you want?" section.
+* Service selection mixes with location selection.
+* Same service appears multiple times in UI.
+
+Fix:
+
+* Service and Location MUST be completely separate states.
+* Selected service should NOT appear inside location input.
+* Only location should appear in "Where do you want?" section.
+
+Correct Flow:
+
+What do you want? → Hotel
+Where do you want it? → Kathmandu
+Result → Hotels in Kathmandu
+
+========================================
+4. SERVICE DUPLICATION FIX
+==========================
+
+Current Issues:
+
+* Same service appears multiple times in UI.
+* Selected service is duplicated in filter chips and list.
+
+Fix:
+
+* Remove duplicates from state.
+* Normalize selection state.
+* Ensure unique service list rendering.
+
+========================================
+5. DARK MODE TEXT VISIBILITY FIX
+================================
+
+Current Issues:
+
+* After selecting service, text disappears.
+* Labels become invisible.
+* Input text not readable.
+* Chips not visible in dark mode.
+
+Fix ALL:
+
+* Search inputs
+* Service chips
+* Selected state text
+* "What do you want?"
+* "Where do you want it?"
+* Provider cards
+* Empty states
+
+Rules:
+
+* NO black text on dark backgrounds
+* NO grey-on-grey UI
+* ALL text must use theme-aware colors
+
+========================================
+6. BOOKMARKS FIX (CRITICAL)
+===========================
+
+Current Issues:
+
+* Bookmarks not removing.
+* Bookmarks not saving properly.
+* Bookmarks screen not opening.
+* Provider bookmarks broken.
+* Service bookmarks broken.
+
+Fix:
+
+* Instant add/remove bookmarks.
+* Firebase sync + AsyncStorage cache.
+* UI updates instantly.
+* No stale state.
+
+========================================
+7. CHAT / MESSAGE FIX
+=====================
+
+Current Issues:
+
+* Messages not sending.
+* Messages not loading.
+* No real-time updates.
+
+Fix:
+
+* Use Firestore real-time listeners.
+* Instant send + receive.
+* No SMS app usage.
+* Fully in-app chat only.
+
+========================================
+8. PROFILE EDIT FIX
+===================
+
+Current Issues:
+
+* Profile edit not saving.
+* Changes not visible instantly.
+* Avatar not updating.
+
+Fix:
+
+* Save to Firebase correctly.
+* Update UI instantly.
+* Update cache immediately.
+
+========================================
+9. REMOVE BROKEN FEATURES
+=========================
+
+Remove or disable broken/unwanted features:
+
+* My Bookings (currently broken)
+* Assistant / chatbot (if unstable)
+* Any unused or broken navigation items
+
+Keep app clean and stable.
+
+========================================
+10. PERFORMANCE FIX
+===================
+
+Optimize:
+
+* Service selection state
+* Chat listeners
+* Bookmark state
+* Provider list rendering
+
+Use:
+
+* React.memo
+* useMemo
+* useCallback
+* FlatList optimization
+
+========================================
+11. FINAL QA CHECKLIST
+======================
+
+Verify ALL:
+
+✓ Service selection toggles correctly
+✓ Clicking same service deselects
+✓ X button removes selection
+✓ No duplicate services appear
+✓ Service chip always visible at top
+✓ Service does NOT appear in location section
+✓ Dark mode text fully visible
+✓ Bookmarks add/remove instantly
+✓ Chat sends & receives in real time
+✓ Profile updates instantly
+✓ No broken "My Bookings" screen
+✓ No UI glitches
+✓ No crashes
+✓ No TypeScript errors
+✓ Production build successful
+
+========================================
+
+DELIVER:
+
+A fully stable, production-ready OrderMe app with fixed state management, correct service selection logic, clean UI separation (service vs location), working bookmarks, working chat, and fully readable dark mode UI.

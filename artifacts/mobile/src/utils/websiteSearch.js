@@ -58,5 +58,5 @@ export function runWebsiteSearch(navigation, {
     navigation.navigate('ServiceDetail', { service: filtered });
     return;
   }
-  navigation.navigate('Services');
+  navigation.navigate('MainTabs', { screen: 'Services' });
 }

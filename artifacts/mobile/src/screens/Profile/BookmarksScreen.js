@@ -260,7 +260,7 @@ export default function BookmarksScreen({ navigation }) {
             </Text>
             <TouchableOpacity
               style={[styles.emptyBtn, { backgroundColor: colors.primary }]}
-              onPress={() => navigation.navigate('Services')}
+              onPress={() => navigation.navigate('MainTabs', { screen: 'Services' })}
             >
               <Text style={styles.emptyBtnText}>Browse Services</Text>
             </TouchableOpacity>
