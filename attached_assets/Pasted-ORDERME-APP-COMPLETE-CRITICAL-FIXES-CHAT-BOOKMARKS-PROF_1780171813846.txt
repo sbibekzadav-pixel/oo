@@ -1,0 +1,317 @@
+ORDERME APP – COMPLETE CRITICAL FIXES, CHAT, BOOKMARKS, PROFILE, SERVICE SELECTION & UI AUDIT
+
+Project: React Native + Expo + Firebase + React Native Gifted Chat
+
+Perform a complete application audit and fix all existing bugs before adding any new functionality. Deliver a production-ready build with zero runtime errors, zero TypeScript errors, zero Firebase issues, and a fully functional user experience.
+
+========================================
+
+1. BOOKMARKS - FULL FIX
+   ========================================
+
+Current Issues:
+
+* Provider bookmarks do not remove.
+* Service bookmarks do not remove.
+* Bookmark icon state becomes incorrect.
+* Bookmarks sometimes fail to save.
+* Bookmarks screen does not refresh immediately.
+* Bookmarked items do not open correctly.
+
+Fix Requirements:
+
+* Add bookmark instantly.
+* Remove bookmark instantly.
+* Update UI optimistically.
+* Sync with Firebase.
+* Cache locally with AsyncStorage.
+* Persist after restart.
+* Persist after logout/login.
+* Real-time updates.
+
+Verify:
+
+✓ Add provider bookmark
+✓ Remove provider bookmark
+✓ Add service bookmark
+✓ Remove service bookmark
+✓ Bookmark count updates instantly
+✓ Bookmarks survive restart
+
+========================================
+2. REAL-TIME CHAT FIX
+=====================
+
+Use React Native Gifted Chat.
+
+Reference:
+https://github.com/FaridSafi/react-native-gifted-chat
+
+Do NOT open SMS apps.
+
+Current Issues:
+
+* Messages not sending.
+* Messages loading slowly.
+* Messages not updating in real time.
+* Chat sometimes empty.
+
+Fix Requirements:
+
+* Firestore real-time listeners.
+* Instant message sending.
+* Instant message receiving.
+* Auto-scroll.
+* Unread counters.
+* Chat history.
+* Existing conversations reopen correctly.
+* New conversations create automatically.
+
+Verify:
+
+✓ Send message
+✓ Receive message
+✓ Real-time updates
+✓ No duplicate messages
+✓ No missing messages
+
+========================================
+3. PROFILE EDIT FIX
+===================
+
+Current Issues:
+
+* Edit profile not saving.
+* Updated data not visible immediately.
+* Avatar update delayed.
+
+Fix Requirements:
+
+* Save profile correctly.
+* Refresh UI immediately.
+* Update Firebase.
+* Update local cache.
+* Show success confirmation.
+
+Fields:
+
+* Name
+* Phone
+* Address
+* Profile Image
+
+Verify:
+
+✓ Save profile
+✓ Instant UI update
+✓ Data persists after restart
+
+========================================
+4. SERVICE SELECTION FLOW FIX
+=============================
+
+Current Issues:
+
+* User selects Hotel.
+* Hotel remains selected incorrectly.
+* Duplicate selections occur.
+* Cannot easily deselect service.
+
+Fix Requirements:
+
+Only one service selected at a time.
+
+When selected:
+
+[ Hotel ✕ ]
+
+Requirements:
+
+* Show selected service chip.
+* Add X button.
+* Clicking X removes service instantly.
+* Clear filters immediately.
+* No duplicate service chips.
+* No stale state.
+
+========================================
+5. WHERE DO YOU WANT IT? FIX
+============================
+
+Current Issues:
+
+* Hotel appears incorrectly in location area.
+* Service and location states mix together.
+
+Correct Flow:
+
+What do you want?
+→ Hotel
+
+Where do you want it?
+→ Kathmandu
+
+Result:
+
+Hotels in Kathmandu
+
+Requirements:
+
+* Keep service and location separate.
+* No duplicate Hotel text.
+* Correct filtering.
+* Correct provider results.
+
+========================================
+6. DARK MODE VISIBILITY FIX
+===========================
+
+Current Issues:
+
+* Text disappears after selecting service.
+* Search text invisible.
+* Chips invisible.
+* Labels unreadable.
+
+Audit:
+
+* What do you want?
+* Where do you want it?
+* Search bars
+* Service chips
+* Provider cards
+* Chat
+* Profile
+* Bookmarks
+* Booking screens
+
+Requirements:
+
+* Theme-aware colors.
+* Visible text in dark mode.
+* Visible text in light mode.
+* Proper contrast everywhere.
+
+========================================
+7. PROVIDER CARD FIX
+====================
+
+Requirements:
+
+* Consistent card height.
+* Responsive layout.
+* Proper image sizing.
+* No overflow.
+* No text truncation issues.
+* Fast image loading.
+
+Provider Images:
+
+* Unique image per provider.
+* No repeated avatars.
+* Use expo-image caching.
+* Prevent flickering.
+
+========================================
+8. PERFORMANCE OPTIMIZATION
+===========================
+
+Optimize:
+
+* Bookmarks
+* Chat
+* Profile
+* Service selection
+* Provider lists
+* Images
+
+Use:
+
+* React.memo
+* useMemo
+* useCallback
+* Optimized FlatList
+* Firestore pagination
+* AsyncStorage cache
+
+Reduce:
+
+* Re-renders
+* Loading delays
+* Navigation lag
+
+========================================
+9. PROFILE MENU
+===============
+
+Remove:
+
+* Assistant
+
+Add:
+
+* Chats
+
+Menu Order:
+
+* My Bookings
+* Chats
+* My Bookmarks
+* Payment Methods
+* Notifications
+* Support
+* Settings
+* Logout
+
+========================================
+10. ERROR FIXES
+===============
+
+Fix all:
+
+* Firebase errors
+* Firestore permission issues
+* Bookmark issues
+* Chat issues
+* Profile issues
+* Navigation issues
+* AsyncStorage issues
+* Theme issues
+* Runtime crashes
+* ESLint warnings
+* TypeScript errors
+
+Target:
+
+✓ Zero warnings
+✓ Zero crashes
+✓ Zero TypeScript errors
+
+========================================
+11. FINAL QA
+============
+
+Verify:
+
+✓ Provider bookmarks add/remove instantly
+✓ Service bookmarks add/remove instantly
+✓ Bookmarks persist after restart
+✓ Chat sends messages instantly
+✓ Chat receives messages instantly
+✓ Real-time messaging works
+✓ Profile edits save instantly
+✓ Profile image updates instantly
+✓ Hotel selection works correctly
+✓ X button removes selection instantly
+✓ No duplicate service chips
+✓ Service and location separated correctly
+✓ Dark mode text visible
+✓ Light mode text visible
+✓ Unique provider images
+✓ Fast image loading
+✓ No runtime crashes
+✓ No Firebase warnings
+✓ No TypeScript errors
+✓ Production build successful
+
+Deliver a fully working, optimized, production-ready OrderMe application.

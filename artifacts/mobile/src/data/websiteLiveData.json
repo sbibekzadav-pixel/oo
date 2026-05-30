@@ -1,0 +1,1409 @@
+{
+  "scrapedAt": "2026-05-27T00:06:55.740Z",
+  "source": "https://www.orderme.com.np",
+  "locations": [
+    {
+      "place": "Gaighat",
+      "area": "Triyuga Municipality",
+      "label": "Gaighat Triyuga Municipality"
+    },
+    {
+      "place": "Pichara",
+      "area": "Biratnagar Metropolitan City",
+      "label": "Pichara Biratnagar Metropolitan City"
+    },
+    {
+      "place": "bargachi",
+      "area": "Biratnagar Metropolitan City",
+      "label": "bargachi Biratnagar Metropolitan City"
+    },
+    {
+      "place": "Inderni tole",
+      "area": "Triyuga Municipality",
+      "label": "Inderni tole Triyuga Municipality"
+    },
+    {
+      "place": "Asari",
+      "area": "Triyuga Municipality",
+      "label": "Asari Triyuga Municipality"
+    },
+    {
+      "place": "Gaighat, DM gate",
+      "area": "Triyuga Municipality",
+      "label": "Gaighat, DM gate Triyuga Municipality"
+    },
+    {
+      "place": "hathkhola",
+      "area": "Phakphokthum Rural Municipality",
+      "label": "hathkhola Phakphokthum Rural Municipality"
+    },
+    {
+      "place": "hathkhola",
+      "area": "Kalaiya Sub-Metropolitan City",
+      "label": "hathkhola Kalaiya Sub-Metropolitan City"
+    },
+    {
+      "place": "Biratnagar",
+      "area": "Biratnagar Metropolitan City",
+      "label": "Biratnagar Biratnagar Metropolitan City"
+    },
+    {
+      "place": "Kathmandu",
+      "area": "Kageshwari-Manohara Municipality",
+      "label": "Kathmandu Kageshwari-Manohara Municipality"
+    },
+    {
+      "place": "Dharan",
+      "area": "Dharan Sub-Metropolitan City",
+      "label": "Dharan Dharan Sub-Metropolitan City"
+    },
+    {
+      "place": "Lahan",
+      "area": "Lahan Municipality",
+      "label": "Lahan Lahan Municipality"
+    },
+    {
+      "place": "Kakarvitta",
+      "area": "Mechinagar Municipality",
+      "label": "Kakarvitta Mechinagar Municipality"
+    },
+    {
+      "place": "Bardibas",
+      "area": "Bardibas Municipality",
+      "label": "Bardibas Bardibas Municipality"
+    }
+  ],
+  "services": {
+    "hotel": {
+      "websiteId": "5",
+      "label": "Hotel",
+      "providerCount": 8,
+      "phones": [
+        "+9779852835925",
+        "+035420665",
+        "+9779804754422",
+        "+9779804009495",
+        "+9779824370303",
+        "+9779842284580",
+        "+9779812003400",
+        "+9779801963941",
+        "+9779829715080",
+        "+9779844293248",
+        "+9779842069159",
+        "+9779802764159",
+        "+9779854029138",
+        "+044550034"
+      ],
+      "providers": [
+        {
+          "name": "Hotel Town Hall & Party Palace",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "DM Gate",
+          "destinationCity": "DM Gate",
+          "phones": [
+            "+9779852835925",
+            "+035420665"
+          ],
+          "phone": "+9779852835925",
+          "phoneSecondary": "+035420665",
+          "badge": "Lodging, Fooding & Party Palace",
+          "route": "Lodging, Fooding & Party Palace",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/6faa8040da20ef399b63a72d0e4ab57520260219192445.jpg"
+        },
+        {
+          "name": "Hotel Himalaya",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Himali Tole",
+          "destinationCity": "Himali Tole",
+          "phones": [
+            "+9779804754422",
+            "+9779804009495"
+          ],
+          "phone": "+9779804754422",
+          "phoneSecondary": "+9779804009495",
+          "badge": "Hotel, Lodge, Party Hall, Parking",
+          "route": "Hotel, Lodge, Party Hall, Parking",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/cfecdb276f634854f3ef915e2e980c3120260225101556.jpg"
+        },
+        {
+          "name": "Himalaya Resort",
+          "business": "Himalaya Resort",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Basbari",
+          "destinationCity": "Basbari",
+          "phones": [
+            "+9779804754422"
+          ],
+          "phone": "+9779804754422",
+          "phoneSecondary": null,
+          "badge": "Hotel, Lodge, Banquet, Ev Charging",
+          "route": "Hotel, Lodge, Banquet, Ev Charging",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8fecb20817b3847419bb3de39a609afe20260225102110.jpg"
+        },
+        {
+          "name": "Hotel Kohabar & Resort Pvt. Ltd",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Patan Devi Marga",
+          "destinationCity": "Patan Devi Marga",
+          "phones": [
+            "+9779824370303",
+            "+9779842284580"
+          ],
+          "phone": "+9779824370303",
+          "phoneSecondary": "+9779842284580",
+          "badge": "Nepali, indian & Chinese Food, Lodge & Banquet Hall",
+          "route": "Nepali, indian & Chinese Food, Lodge & Banquet Hall",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/c9f0f895fb98ab9159f51fd0297e236d20260419232005.jpeg"
+        },
+        {
+          "name": "Hotel Gravity Inn",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Bishyut Line",
+          "destinationCity": "Bishyut Line",
+          "phones": [
+            "+9779812003400",
+            "+9779801963941"
+          ],
+          "phone": "+9779812003400",
+          "phoneSecondary": "+9779801963941",
+          "badge": "Ac/Non Ac Rooms, Family Restaurant",
+          "route": "Ac/Non Ac Rooms, Family Restaurant",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/5737034557ef5b8c02c0e46513b98f9020260425100216.jpg"
+        },
+        {
+          "name": "The Royal Tandoori & Guest House  ,Thakali Bhanchha Ghar",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Himali Tole",
+          "destinationCity": "Himali Tole",
+          "phones": [
+            "+9779829715080",
+            "+9779844293248"
+          ],
+          "phone": "+9779829715080",
+          "phoneSecondary": "+9779844293248",
+          "badge": "Thakali Khana, Tandoori, Lodge, Resturant",
+          "route": "Thakali Khana, Tandoori, Lodge, Resturant",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e7b24b112a44fdd9ee93bdf998c6ca0e20260503150914.jpg"
+        },
+        {
+          "name": "Hotel Ratna Priya",
+          "business": "Hotel Ratna Priya",
+          "location": "Biratnagar Metropolitan City , Biratnagar",
+          "origin": "Biratnagar Metropolitan City , Biratnagar",
+          "address": "Roadcess",
+          "destinationCity": "Roadcess",
+          "phones": [
+            "+9779842069159",
+            "+9779802764159"
+          ],
+          "phone": "+9779842069159",
+          "phoneSecondary": "+9779802764159",
+          "badge": "✨Sweet Rooms • Multi Cuisine Food • Events Hall✨",
+          "route": "✨Sweet Rooms • Multi Cuisine Food • Events Hall✨",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e6cb2a3c14431b55aa50c06529eaa21b20260507225839.jpg"
+        },
+        {
+          "name": "GAUTAM HOTEL",
+          "business": "",
+          "location": "Bardibas Municipality , Bardibas",
+          "origin": "Bardibas Municipality , Bardibas",
+          "address": "Bardibas",
+          "destinationCity": "Bardibas",
+          "phones": [
+            "+9779854029138",
+            "+044550034"
+          ],
+          "phone": "+9779854029138",
+          "phoneSecondary": "+044550034",
+          "badge": "Sweet Room, Ac-nonAc Room, Hotel & Banquet",
+          "route": "Sweet Room, Ac-nonAc Room, Hotel & Banquet",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/ddb30680a691d157187ee1cf9e896d0320260520053413.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 6,
+          "phones": [
+            "+9779852835925",
+            "+035420665",
+            "+9779804754422",
+            "+9779804009495",
+            "+9779824370303",
+            "+9779842284580",
+            "+9779812003400",
+            "+9779801963941",
+            "+9779829715080",
+            "+9779844293248"
+          ],
+          "providers": [
+            {
+              "name": "Hotel Town Hall & Party Palace",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "DM Gate",
+              "destinationCity": "DM Gate",
+              "phones": [
+                "+9779852835925",
+                "+035420665"
+              ],
+              "phone": "+9779852835925",
+              "phoneSecondary": "+035420665",
+              "badge": "Lodging, Fooding & Party Palace",
+              "route": "Lodging, Fooding & Party Palace",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/6faa8040da20ef399b63a72d0e4ab57520260219192445.jpg"
+            },
+            {
+              "name": "Hotel Himalaya",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Himali Tole",
+              "destinationCity": "Himali Tole",
+              "phones": [
+                "+9779804754422",
+                "+9779804009495"
+              ],
+              "phone": "+9779804754422",
+              "phoneSecondary": "+9779804009495",
+              "badge": "Hotel, Lodge, Party Hall, Parking",
+              "route": "Hotel, Lodge, Party Hall, Parking",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/cfecdb276f634854f3ef915e2e980c3120260225101556.jpg"
+            },
+            {
+              "name": "Himalaya Resort",
+              "business": "Himalaya Resort",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Basbari",
+              "destinationCity": "Basbari",
+              "phones": [
+                "+9779804754422"
+              ],
+              "phone": "+9779804754422",
+              "phoneSecondary": null,
+              "badge": "Hotel, Lodge, Banquet, Ev Charging",
+              "route": "Hotel, Lodge, Banquet, Ev Charging",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8fecb20817b3847419bb3de39a609afe20260225102110.jpg"
+            },
+            {
+              "name": "Hotel Kohabar & Resort Pvt. Ltd",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Patan Devi Marga",
+              "destinationCity": "Patan Devi Marga",
+              "phones": [
+                "+9779824370303",
+                "+9779842284580"
+              ],
+              "phone": "+9779824370303",
+              "phoneSecondary": "+9779842284580",
+              "badge": "Nepali, indian & Chinese Food, Lodge & Banquet Hall",
+              "route": "Nepali, indian & Chinese Food, Lodge & Banquet Hall",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/c9f0f895fb98ab9159f51fd0297e236d20260419232005.jpeg"
+            },
+            {
+              "name": "Hotel Gravity Inn",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Bishyut Line",
+              "destinationCity": "Bishyut Line",
+              "phones": [
+                "+9779812003400",
+                "+9779801963941"
+              ],
+              "phone": "+9779812003400",
+              "phoneSecondary": "+9779801963941",
+              "badge": "Ac/Non Ac Rooms, Family Restaurant",
+              "route": "Ac/Non Ac Rooms, Family Restaurant",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/5737034557ef5b8c02c0e46513b98f9020260425100216.jpg"
+            },
+            {
+              "name": "The Royal Tandoori & Guest House  ,Thakali Bhanchha Ghar",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Himali Tole",
+              "destinationCity": "Himali Tole",
+              "phones": [
+                "+9779829715080",
+                "+9779844293248"
+              ],
+              "phone": "+9779829715080",
+              "phoneSecondary": "+9779844293248",
+              "badge": "Thakali Khana, Tandoori, Lodge, Resturant",
+              "route": "Thakali Khana, Tandoori, Lodge, Resturant",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e7b24b112a44fdd9ee93bdf998c6ca0e20260503150914.jpg"
+            }
+          ]
+        },
+        "Biratnagar": {
+          "providerCount": 1,
+          "phones": [
+            "+9779842069159",
+            "+9779802764159"
+          ],
+          "providers": [
+            {
+              "name": "Hotel Ratna Priya",
+              "business": "Hotel Ratna Priya",
+              "location": "Biratnagar Metropolitan City , Biratnagar",
+              "origin": "Biratnagar Metropolitan City , Biratnagar",
+              "address": "Roadcess",
+              "destinationCity": "Roadcess",
+              "phones": [
+                "+9779842069159",
+                "+9779802764159"
+              ],
+              "phone": "+9779842069159",
+              "phoneSecondary": "+9779802764159",
+              "badge": "✨Sweet Rooms • Multi Cuisine Food • Events Hall✨",
+              "route": "✨Sweet Rooms • Multi Cuisine Food • Events Hall✨",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e6cb2a3c14431b55aa50c06529eaa21b20260507225839.jpg"
+            }
+          ]
+        },
+        "Bardibas": {
+          "providerCount": 1,
+          "phones": [
+            "+9779854029138",
+            "+044550034"
+          ],
+          "providers": [
+            {
+              "name": "GAUTAM HOTEL",
+              "business": "",
+              "location": "Bardibas Municipality , Bardibas",
+              "origin": "Bardibas Municipality , Bardibas",
+              "address": "Bardibas",
+              "destinationCity": "Bardibas",
+              "phones": [
+                "+9779854029138",
+                "+044550034"
+              ],
+              "phone": "+9779854029138",
+              "phoneSecondary": "+044550034",
+              "badge": "Sweet Room, Ac-nonAc Room, Hotel & Banquet",
+              "route": "Sweet Room, Ac-nonAc Room, Hotel & Banquet",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/ddb30680a691d157187ee1cf9e896d0320260520053413.jpg"
+            }
+          ]
+        }
+      },
+      "hotelNames": [
+        "Hotel Town Hall & Party Palace",
+        "Hotel Himalaya",
+        "Himalaya Resort",
+        "Hotel Kohabar & Resort Pvt. Ltd",
+        "Hotel Gravity Inn",
+        "The Royal Tandoori & Guest House  ,Thakali Bhanchha Ghar",
+        "Hotel Ratna Priya",
+        "GAUTAM HOTEL"
+      ]
+    },
+    "local-bus": {
+      "websiteId": "43",
+      "label": "Local Bus",
+      "providerCount": 1,
+      "phones": [
+        "+9779702169059"
+      ],
+      "providers": [
+        {
+          "name": "himali 9246",
+          "business": "Himali Yatayat",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Biratnagar",
+          "destinationCity": "Biratnagar",
+          "phones": [
+            "+9779702169059"
+          ],
+          "phone": "+9779702169059",
+          "phoneSecondary": null,
+          "badge": "Gaighat-Biratnagar",
+          "route": "Gaighat-Biratnagar",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/bcbe3365e6ac95ea2c0343a2395834dd20250203075751.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779702169059"
+          ],
+          "providers": [
+            {
+              "name": "himali 9246",
+              "business": "Himali Yatayat",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Biratnagar",
+              "destinationCity": "Biratnagar",
+              "phones": [
+                "+9779702169059"
+              ],
+              "phone": "+9779702169059",
+              "phoneSecondary": null,
+              "badge": "Gaighat-Biratnagar",
+              "route": "Gaighat-Biratnagar",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/bcbe3365e6ac95ea2c0343a2395834dd20250203075751.jpg"
+            }
+          ]
+        }
+      },
+      "destinations": [
+        {
+          "destination": "Biratnagar",
+          "area": "Biratnagar Metropolitan City",
+          "providers": [
+            {
+              "name": "himali 9246",
+              "business": "Himali Yatayat",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Biratnagar",
+              "destinationCity": "Biratnagar",
+              "phones": [
+                "+9779702169059"
+              ],
+              "phone": "+9779702169059",
+              "phoneSecondary": null,
+              "badge": "Gaighat-Biratnagar",
+              "route": "Gaighat-Biratnagar",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/bcbe3365e6ac95ea2c0343a2395834dd20250203075751.jpg"
+            }
+          ]
+        },
+        {
+          "destination": "Biratnagar",
+          "area": "Triyuga Municipality",
+          "providers": [
+            {
+              "name": "himali 9246",
+              "business": "Himali Yatayat",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Biratnagar",
+              "destinationCity": "Biratnagar",
+              "phones": [
+                "+9779702169059"
+              ],
+              "phone": "+9779702169059",
+              "phoneSecondary": null,
+              "badge": "Gaighat-Biratnagar",
+              "route": "Gaighat-Biratnagar",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/bcbe3365e6ac95ea2c0343a2395834dd20250203075751.jpg"
+            }
+          ]
+        }
+      ],
+      "busNames": [
+        "Himali Yatayat"
+      ]
+    },
+    "home-decor": {
+      "websiteId": "50",
+      "label": "Home Decor",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "biryani": {
+      "websiteId": "58",
+      "label": "Biryani",
+      "providerCount": 1,
+      "phones": [
+        "+9779703213431",
+        "+9779817321398"
+      ],
+      "providers": [
+        {
+          "name": "Gaighat Biryani House",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Nilo Pool",
+          "destinationCity": "Nilo Pool",
+          "phones": [
+            "+9779703213431",
+            "+9779817321398"
+          ],
+          "phone": "+9779703213431",
+          "phoneSecondary": "+9779817321398",
+          "badge": "Biryani, Naglose, Snacks",
+          "route": "Biryani, Naglose, Snacks",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e7b24b112a44fdd9ee93bdf998c6ca0e20260425124923.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779703213431",
+            "+9779817321398"
+          ],
+          "providers": [
+            {
+              "name": "Gaighat Biryani House",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Nilo Pool",
+              "destinationCity": "Nilo Pool",
+              "phones": [
+                "+9779703213431",
+                "+9779817321398"
+              ],
+              "phone": "+9779703213431",
+              "phoneSecondary": "+9779817321398",
+              "badge": "Biryani, Naglose, Snacks",
+              "route": "Biryani, Naglose, Snacks",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e7b24b112a44fdd9ee93bdf998c6ca0e20260425124923.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "sekuwa": {
+      "websiteId": "57",
+      "label": "Sekuwa",
+      "providerCount": 1,
+      "phones": [
+        "+9779765740000",
+        "+9779815758844"
+      ],
+      "providers": [
+        {
+          "name": "Manoj Hotel & Sekuwa Corner",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Bank Line",
+          "destinationCity": "Bank Line",
+          "phones": [
+            "+9779765740000",
+            "+9779815758844"
+          ],
+          "phone": "+9779765740000",
+          "phoneSecondary": "+9779815758844",
+          "badge": "Pork, Chicken, Local Chicken Special Sekuwa",
+          "route": "Pork, Chicken, Local Chicken Special Sekuwa",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8c6744c9d42ec2cb9e8885b54ff744d020260428114911.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779765740000",
+            "+9779815758844"
+          ],
+          "providers": [
+            {
+              "name": "Manoj Hotel & Sekuwa Corner",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Bank Line",
+              "destinationCity": "Bank Line",
+              "phones": [
+                "+9779765740000",
+                "+9779815758844"
+              ],
+              "phone": "+9779765740000",
+              "phoneSecondary": "+9779815758844",
+              "badge": "Pork, Chicken, Local Chicken Special Sekuwa",
+              "route": "Pork, Chicken, Local Chicken Special Sekuwa",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8c6744c9d42ec2cb9e8885b54ff744d020260428114911.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "grocery": {
+      "websiteId": "56",
+      "label": "Grocery",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "civil-engineer": {
+      "websiteId": "55",
+      "label": "Civil Engineer",
+      "providerCount": 1,
+      "phones": [
+        "+9779806062122"
+      ],
+      "providers": [
+        {
+          "name": "Anil Danuwar",
+          "business": null,
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Gaighat",
+          "destinationCity": "Gaighat",
+          "phones": [
+            "+9779806062122"
+          ],
+          "phone": "+9779806062122",
+          "phoneSecondary": null,
+          "badge": "* Structural Analysis & Foundation Design  Site Grading & Drainage Solutions  Building Code Compliance & Permitting  Construction Project Management",
+          "route": "* Structural Analysis & Foundation Design  Site Grading & Drainage Solutions  Building Code Compliance & Permitting  Construction Project Management",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e2230b853516e7b05d79744fbd4c9c1320260429223901.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779806062122"
+          ],
+          "providers": [
+            {
+              "name": "Anil Danuwar",
+              "business": null,
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Gaighat",
+              "destinationCity": "Gaighat",
+              "phones": [
+                "+9779806062122"
+              ],
+              "phone": "+9779806062122",
+              "phoneSecondary": null,
+              "badge": "* Structural Analysis & Foundation Design  Site Grading & Drainage Solutions  Building Code Compliance & Permitting  Construction Project Management",
+              "route": "* Structural Analysis & Foundation Design  Site Grading & Drainage Solutions  Building Code Compliance & Permitting  Construction Project Management",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/e2230b853516e7b05d79744fbd4c9c1320260429223901.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "coffee-shop": {
+      "websiteId": "54",
+      "label": "Coffee Shop",
+      "providerCount": 1,
+      "phones": [
+        "+9779843998799",
+        "+035590400"
+      ],
+      "providers": [
+        {
+          "name": "Dip & FLip Burger House",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Bidhyut Line",
+          "destinationCity": "Bidhyut Line",
+          "phones": [
+            "+9779843998799",
+            "+035590400"
+          ],
+          "phone": "+9779843998799",
+          "phoneSecondary": "+035590400",
+          "badge": "Coffee, Restaurant, Burger Special",
+          "route": "Coffee, Restaurant, Burger Special",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/233509073ed3432027d48b1a83f5fbd220260423212454.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779843998799",
+            "+035590400"
+          ],
+          "providers": [
+            {
+              "name": "Dip & FLip Burger House",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Bidhyut Line",
+              "destinationCity": "Bidhyut Line",
+              "phones": [
+                "+9779843998799",
+                "+035590400"
+              ],
+              "phone": "+9779843998799",
+              "phoneSecondary": "+035590400",
+              "badge": "Coffee, Restaurant, Burger Special",
+              "route": "Coffee, Restaurant, Burger Special",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/233509073ed3432027d48b1a83f5fbd220260423212454.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "tuition-teacher": {
+      "websiteId": "53",
+      "label": "Tuition Teacher",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "room-rent": {
+      "websiteId": "52",
+      "label": "Room Rent",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "ghar-jagga": {
+      "websiteId": "51",
+      "label": "Ghar Jagga",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "hiace": {
+      "websiteId": "59",
+      "label": "Hiace",
+      "providerCount": 1,
+      "phones": [
+        "+9779813057282",
+        "+9779863935513"
+      ],
+      "providers": [
+        {
+          "name": "Hiace-821",
+          "business": "Saptakoshi Yatayat",
+          "location": "Dharan Sub-Metropolitan City , dharan",
+          "origin": "Dharan Sub-Metropolitan City , dharan",
+          "address": "Bhanu Chowk",
+          "destinationCity": "Bhanu Chowk",
+          "phones": [
+            "+9779813057282",
+            "+9779863935513"
+          ],
+          "phone": "+9779813057282",
+          "phoneSecondary": "+9779863935513",
+          "badge": "Dharan-Gaighat-Kathmandu",
+          "route": "Dharan-Gaighat-Kathmandu",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8f85517967795eeef66c225f7883bdcb20260429075708.jpeg"
+        }
+      ],
+      "byAddress": {
+        "Dharan": {
+          "providerCount": 1,
+          "phones": [
+            "+9779813057282",
+            "+9779863935513"
+          ],
+          "providers": [
+            {
+              "name": "Hiace-821",
+              "business": "Saptakoshi Yatayat",
+              "location": "Dharan Sub-Metropolitan City , dharan",
+              "origin": "Dharan Sub-Metropolitan City , dharan",
+              "address": "Bhanu Chowk",
+              "destinationCity": "Bhanu Chowk",
+              "phones": [
+                "+9779813057282",
+                "+9779863935513"
+              ],
+              "phone": "+9779813057282",
+              "phoneSecondary": "+9779863935513",
+              "badge": "Dharan-Gaighat-Kathmandu",
+              "route": "Dharan-Gaighat-Kathmandu",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8f85517967795eeef66c225f7883bdcb20260429075708.jpeg"
+            }
+          ]
+        }
+      },
+      "busNames": [
+        "Saptakoshi Yatayat"
+      ]
+    },
+    "custom-agent": {
+      "websiteId": "49",
+      "label": "Custom Agent",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "hospital": {
+      "websiteId": "48",
+      "label": "Hospital",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "sweets-store": {
+      "websiteId": "47",
+      "label": "Sweets Store",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "gas-store": {
+      "websiteId": "46",
+      "label": "Gas Store",
+      "providerCount": 1,
+      "phones": [
+        "+9779842986773",
+        "+034590222"
+      ],
+      "providers": [
+        {
+          "name": "Ramailo Pal",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Pipal Chowk",
+          "destinationCity": "Pipal Chowk",
+          "phones": [
+            "+9779842986773",
+            "+034590222"
+          ],
+          "phone": "+9779842986773",
+          "phoneSecondary": "+034590222",
+          "badge": "Koshi Gas Dealer, Kitchen Appliance",
+          "route": "Koshi Gas Dealer, Kitchen Appliance",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8d6dc35e506fc23349dd10ee68dabb6420260425125225.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779842986773",
+            "+034590222"
+          ],
+          "providers": [
+            {
+              "name": "Ramailo Pal",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Pipal Chowk",
+              "destinationCity": "Pipal Chowk",
+              "phones": [
+                "+9779842986773",
+                "+034590222"
+              ],
+              "phone": "+9779842986773",
+              "phoneSecondary": "+034590222",
+              "badge": "Koshi Gas Dealer, Kitchen Appliance",
+              "route": "Koshi Gas Dealer, Kitchen Appliance",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/8d6dc35e506fc23349dd10ee68dabb6420260425125225.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "home-appliance": {
+      "websiteId": "45",
+      "label": "Home Appliance",
+      "providerCount": 1,
+      "phones": [
+        "+9779801650280",
+        "+035422233"
+      ],
+      "providers": [
+        {
+          "name": "VISION WORLD",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "GAIGHAT",
+          "destinationCity": "GAIGHAT",
+          "phones": [
+            "+9779801650280",
+            "+035422233"
+          ],
+          "phone": "+9779801650280",
+          "phoneSecondary": "+035422233",
+          "badge": "ELECTRONIC & STEEL DARAZ",
+          "route": "ELECTRONIC & STEEL DARAZ",
+          "imageUrl": "https://www.orderme.com.np/images/no-image.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779801650280",
+            "+035422233"
+          ],
+          "providers": [
+            {
+              "name": "VISION WORLD",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "GAIGHAT",
+              "destinationCity": "GAIGHAT",
+              "phones": [
+                "+9779801650280",
+                "+035422233"
+              ],
+              "phone": "+9779801650280",
+              "phoneSecondary": "+035422233",
+              "badge": "ELECTRONIC & STEEL DARAZ",
+              "route": "ELECTRONIC & STEEL DARAZ",
+              "imageUrl": "https://www.orderme.com.np/images/no-image.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "bike-ride": {
+      "websiteId": "44",
+      "label": "Bike Ride",
+      "providerCount": 1,
+      "phones": [
+        "+9779812356197"
+      ],
+      "providers": [
+        {
+          "name": "khemraj Phuyel",
+          "business": "Honda Sine 5081",
+          "location": "Triyuga Municipality , Asari",
+          "origin": "Triyuga Municipality , Asari",
+          "address": null,
+          "destinationCity": null,
+          "phones": [
+            "+9779812356197"
+          ],
+          "phone": "+9779812356197",
+          "phoneSecondary": null,
+          "badge": "License",
+          "route": "License",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/556f391937dfd4398cbac35e050a217720250107124914.jpg"
+        }
+      ],
+      "byAddress": {
+        "Asari": {
+          "providerCount": 1,
+          "phones": [
+            "+9779812356197"
+          ],
+          "providers": [
+            {
+              "name": "khemraj Phuyel",
+              "business": "Honda Sine 5081",
+              "location": "Triyuga Municipality , Asari",
+              "origin": "Triyuga Municipality , Asari",
+              "address": null,
+              "destinationCity": null,
+              "phones": [
+                "+9779812356197"
+              ],
+              "phone": "+9779812356197",
+              "phoneSecondary": null,
+              "badge": "License",
+              "route": "License",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/556f391937dfd4398cbac35e050a217720250107124914.jpg"
+            }
+          ]
+        }
+      },
+      "busNames": [
+        "Honda Sine 5081"
+      ]
+    },
+    "day-night-bus": {
+      "websiteId": "42",
+      "label": "Day/Night Bus",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "eye-care": {
+      "websiteId": "67",
+      "label": "Eye Care",
+      "providerCount": 1,
+      "phones": [
+        "+9779863978722",
+        "+9779852825825"
+      ],
+      "providers": [
+        {
+          "name": "Haleshi Chasma Ghar",
+          "business": "Haleshi Chasma Ghar",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Nilo Pool",
+          "destinationCity": "Nilo Pool",
+          "phones": [
+            "+9779863978722",
+            "+9779852825825"
+          ],
+          "phone": "+9779863978722",
+          "phoneSecondary": "+9779852825825",
+          "badge": "Eye care Consultant, Optical House",
+          "route": "Eye care Consultant, Optical House",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/08c5433a60135c32e34f46a71175850c20260430142417.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779863978722",
+            "+9779852825825"
+          ],
+          "providers": [
+            {
+              "name": "Haleshi Chasma Ghar",
+              "business": "Haleshi Chasma Ghar",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Nilo Pool",
+              "destinationCity": "Nilo Pool",
+              "phones": [
+                "+9779863978722",
+                "+9779852825825"
+              ],
+              "phone": "+9779863978722",
+              "phoneSecondary": "+9779852825825",
+              "badge": "Eye care Consultant, Optical House",
+              "route": "Eye care Consultant, Optical House",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/08c5433a60135c32e34f46a71175850c20260430142417.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "cinema-theater": {
+      "websiteId": "75",
+      "label": "Cinema/Theater",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "garmemt": {
+      "websiteId": "74",
+      "label": "Garmemt",
+      "providerCount": 1,
+      "phones": [
+        "+035423315",
+        "+9779801508878"
+      ],
+      "providers": [
+        {
+          "name": "Shiva Store",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Petrol Pump",
+          "destinationCity": "Petrol Pump",
+          "phones": [
+            "+035423315",
+            "+9779801508878"
+          ],
+          "phone": "+035423315",
+          "phoneSecondary": "+9779801508878",
+          "badge": "Clothing Garment. College Dress, School Dress, Costumes",
+          "route": "Clothing Garment. College Dress, School Dress, Costumes",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/02e74f10e0327ad868d138f2b4fdd6f020260507235922.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+035423315",
+            "+9779801508878"
+          ],
+          "providers": [
+            {
+              "name": "Shiva Store",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Petrol Pump",
+              "destinationCity": "Petrol Pump",
+              "phones": [
+                "+035423315",
+                "+9779801508878"
+              ],
+              "phone": "+035423315",
+              "phoneSecondary": "+9779801508878",
+              "badge": "Clothing Garment. College Dress, School Dress, Costumes",
+              "route": "Clothing Garment. College Dress, School Dress, Costumes",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/02e74f10e0327ad868d138f2b4fdd6f020260507235922.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "cloth-store": {
+      "websiteId": "73",
+      "label": "Cloth Store",
+      "providerCount": 1,
+      "phones": [
+        "+035423315",
+        "+9779801508878"
+      ],
+      "providers": [
+        {
+          "name": "Shiv Store Gaighat",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Petrol Pump Line",
+          "destinationCity": "Petrol Pump Line",
+          "phones": [
+            "+035423315",
+            "+9779801508878"
+          ],
+          "phone": "+035423315",
+          "phoneSecondary": "+9779801508878",
+          "badge": "Shirting-suiting, Bridal Costume, Dresses, and all kind of cloth items",
+          "route": "Shirting-suiting, Bridal Costume, Dresses, and all kind of cloth items",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/d81f9c1be2e08964bf9f24b15f0e490020260508000820.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+035423315",
+            "+9779801508878"
+          ],
+          "providers": [
+            {
+              "name": "Shiv Store Gaighat",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Petrol Pump Line",
+              "destinationCity": "Petrol Pump Line",
+              "phones": [
+                "+035423315",
+                "+9779801508878"
+              ],
+              "phone": "+035423315",
+              "phoneSecondary": "+9779801508878",
+              "badge": "Shirting-suiting, Bridal Costume, Dresses, and all kind of cloth items",
+              "route": "Shirting-suiting, Bridal Costume, Dresses, and all kind of cloth items",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/d81f9c1be2e08964bf9f24b15f0e490020260508000820.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "tv-repair": {
+      "websiteId": "72",
+      "label": "TV Repair",
+      "providerCount": 1,
+      "phones": [
+        "+9779852835260",
+        "+9779829756202"
+      ],
+      "providers": [
+        {
+          "name": "Bishnu Shrestha",
+          "business": "Bishnu Electronics",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "BP Chowk",
+          "destinationCity": "BP Chowk",
+          "phones": [
+            "+9779852835260",
+            "+9779829756202"
+          ],
+          "phone": "+9779852835260",
+          "phoneSecondary": "+9779829756202",
+          "badge": "LED TV Repair, All Electronics Repair",
+          "route": "LED TV Repair, All Electronics Repair",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/40008b9a5380fcacce3976bf7c08af5b20260506092233.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 1,
+          "phones": [
+            "+9779852835260",
+            "+9779829756202"
+          ],
+          "providers": [
+            {
+              "name": "Bishnu Shrestha",
+              "business": "Bishnu Electronics",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "BP Chowk",
+              "destinationCity": "BP Chowk",
+              "phones": [
+                "+9779852835260",
+                "+9779829756202"
+              ],
+              "phone": "+9779852835260",
+              "phoneSecondary": "+9779829756202",
+              "badge": "LED TV Repair, All Electronics Repair",
+              "route": "LED TV Repair, All Electronics Repair",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/40008b9a5380fcacce3976bf7c08af5b20260506092233.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "it-solution": {
+      "websiteId": "71",
+      "label": "It Solution",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "hardware-store": {
+      "websiteId": "70",
+      "label": "hardware Store",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "car-decoratoir": {
+      "websiteId": "69",
+      "label": "Car Decoratoir",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "photo-studio": {
+      "websiteId": "68",
+      "label": "Photo Studio",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "tiles-marble": {
+      "websiteId": "41",
+      "label": "Tiles and Marble",
+      "providerCount": 2,
+      "phones": [
+        "+9779817791902",
+        "+98742828270",
+        "+9779823460115",
+        "+9779828075777"
+      ],
+      "providers": [
+        {
+          "name": "S.P. Suppliers & Traders",
+          "business": "",
+          "location": "Triyuga Municipality , GAIGHAT",
+          "origin": "Triyuga Municipality , GAIGHAT",
+          "address": "Bidhyut Line",
+          "destinationCity": "Bidhyut Line",
+          "phones": [
+            "+9779817791902",
+            "+98742828270"
+          ],
+          "phone": "+9779817791902",
+          "phoneSecondary": "+98742828270",
+          "badge": "Tiles, Marbles, Sanitary ware, product & Technician",
+          "route": "Tiles, Marbles, Sanitary ware, product & Technician",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/1cc3633c579a90cfdd895e64021e216320260425100659.jpg"
+        },
+        {
+          "name": "RBD Enterprises",
+          "business": "",
+          "location": "Triyuga Municipality , Gaighat",
+          "origin": "Triyuga Municipality , Gaighat",
+          "address": "Bidhyut Line",
+          "destinationCity": "Bidhyut Line",
+          "phones": [
+            "+9779823460115",
+            "+9779828075777"
+          ],
+          "phone": "+9779823460115",
+          "phoneSecondary": "+9779828075777",
+          "badge": "Tiles & Marlble, Sanitary Ware, Brands and Technician suppliers",
+          "route": "Tiles & Marlble, Sanitary Ware, Brands and Technician suppliers",
+          "imageUrl": "https://www.orderme.com.np/images/registration/photopp/0d0fd7c6e093f7b804fa0150b875b86820260504200837.jpg"
+        }
+      ],
+      "byAddress": {
+        "Gaighat": {
+          "providerCount": 2,
+          "phones": [
+            "+9779817791902",
+            "+98742828270",
+            "+9779823460115",
+            "+9779828075777"
+          ],
+          "providers": [
+            {
+              "name": "S.P. Suppliers & Traders",
+              "business": "",
+              "location": "Triyuga Municipality , GAIGHAT",
+              "origin": "Triyuga Municipality , GAIGHAT",
+              "address": "Bidhyut Line",
+              "destinationCity": "Bidhyut Line",
+              "phones": [
+                "+9779817791902",
+                "+98742828270"
+              ],
+              "phone": "+9779817791902",
+              "phoneSecondary": "+98742828270",
+              "badge": "Tiles, Marbles, Sanitary ware, product & Technician",
+              "route": "Tiles, Marbles, Sanitary ware, product & Technician",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/1cc3633c579a90cfdd895e64021e216320260425100659.jpg"
+            },
+            {
+              "name": "RBD Enterprises",
+              "business": "",
+              "location": "Triyuga Municipality , Gaighat",
+              "origin": "Triyuga Municipality , Gaighat",
+              "address": "Bidhyut Line",
+              "destinationCity": "Bidhyut Line",
+              "phones": [
+                "+9779823460115",
+                "+9779828075777"
+              ],
+              "phone": "+9779823460115",
+              "phoneSecondary": "+9779828075777",
+              "badge": "Tiles & Marlble, Sanitary Ware, Brands and Technician suppliers",
+              "route": "Tiles & Marlble, Sanitary Ware, Brands and Technician suppliers",
+              "imageUrl": "https://www.orderme.com.np/images/registration/photopp/0d0fd7c6e093f7b804fa0150b875b86820260504200837.jpg"
+            }
+          ]
+        }
+      }
+    },
+    "fitness-center": {
+      "websiteId": "66",
+      "label": "Fitness Center",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "car-rent": {
+      "websiteId": "65",
+      "label": "Car Rent",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "cement-mixture-truck": {
+      "websiteId": "64",
+      "label": "Cement Mixture Truck",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    },
+    "transport": {
+      "websiteId": "63",
+      "label": "Transport",
+      "providerCount": 0,
+      "phones": [],
+      "providers": []
+    }
+  }
+}
