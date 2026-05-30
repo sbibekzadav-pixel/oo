@@ -115,11 +115,46 @@ export default function ServiceWhereWhatFlow({ onSearch, compact = false }) {
 
   const routesForLabel = t('routesFor').replace('{service}', localizedWhatLabel || t('transport'));
 
+  const fieldBg = colors.inputBg || colors.card;
+
   return (
     <View style={compact ? styles.compactWrap : styles.wrap}>
+      {/* Selected service chip with X */}
+      {whatSlug ? (
+        <View style={[styles.chipRow]}>
+          <View style={[styles.chip, { backgroundColor: colors.primaryLight, borderColor: colors.primary }]}>
+            <Text style={[styles.chipText, { color: colors.primary }]} numberOfLines={1}>
+              {localizedWhatLabel}
+            </Text>
+            <TouchableOpacity
+              onPress={() => { setWhat(null, null); }}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+              style={styles.chipX}
+            >
+              <Ionicons name="close-circle" size={16} color={colors.primary} />
+            </TouchableOpacity>
+          </View>
+          {where ? (
+            <View style={[styles.chip, { backgroundColor: colors.surfaceAlt || colors.card, borderColor: colors.border }]}>
+              <Ionicons name="location-outline" size={13} color={colors.textSecondary} />
+              <Text style={[styles.chipText, { color: colors.textSecondary }]} numberOfLines={1}>
+                {where}
+              </Text>
+              <TouchableOpacity
+                onPress={() => { setWhereFromLoc(null); }}
+                hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+                style={styles.chipX}
+              >
+                <Ionicons name="close-circle" size={16} color={colors.textLight} />
+              </TouchableOpacity>
+            </View>
+          ) : null}
+        </View>
+      ) : null}
+
       <View style={styles.searchRow}>
         <TouchableOpacity
-          style={[styles.field, { backgroundColor: '#fff', borderColor: colors.border }]}
+          style={[styles.field, { backgroundColor: fieldBg, borderColor: colors.border }]}
           onPress={() => setWhatModalVisible(true)}
           activeOpacity={0.85}
         >
@@ -132,7 +167,7 @@ export default function ServiceWhereWhatFlow({ onSearch, compact = false }) {
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={[styles.field, { backgroundColor: '#fff', borderColor: colors.border }]}
+          style={[styles.field, { backgroundColor: fieldBg, borderColor: colors.border }]}
           onPress={() => setLocationModalVisible(true)}
           activeOpacity={0.85}
         >
@@ -345,6 +380,17 @@ function PickerModal({
 const styles = StyleSheet.create({
   wrap: { marginHorizontal: 20, marginBottom: 8 },
   compactWrap: { marginHorizontal: 20, marginBottom: 4 },
+  chipRow: {
+    flexDirection: 'row', flexWrap: 'wrap', gap: 6, marginBottom: 8,
+  },
+  chip: {
+    flexDirection: 'row', alignItems: 'center', gap: 4,
+    borderRadius: 20, borderWidth: 1.5,
+    paddingHorizontal: 10, paddingVertical: 5,
+    maxWidth: '100%',
+  },
+  chipText: { fontSize: 13, fontWeight: '700', flexShrink: 1 },
+  chipX: { marginLeft: 2 },
   searchRow: {
     flexDirection: 'row', alignItems: 'stretch', gap: 6,
   },

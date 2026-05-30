@@ -170,11 +170,6 @@ export default function LoginScreen({ navigation }) {
           </Text>
         </TouchableOpacity>
 
-        <Text style={styles.demoNote}>
-          Google sign-in ले preview मा error दिन्छ (Firebase domain restriction)। 
-          Email/Password प्रयोग गर्नुहोस् वा Firebase Console मा vercel.app domain थप्नुहोस्।
-        </Text>
-
         <View style={styles.registerRow}>
           <Text style={styles.registerText}>Don't have an account? </Text>
           <TouchableOpacity onPress={() => navigation.navigate('Register')}>
@@ -238,13 +233,6 @@ const createStyles = (COLORS, SHADOWS, isDark) => StyleSheet.create({
     flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 12,
     borderWidth: 1.5, borderColor: COLORS.border, borderRadius: 16, paddingVertical: 14,
     backgroundColor: COLORS.card,
-  },
-  demoNote: {
-    fontSize: 12,
-    textAlign: 'center',
-    marginTop: 16,
-    color: '#64748b',
-    fontStyle: 'italic',
   },
   socialBtnDisabled: { opacity: 0.55 },
   socialText: { fontSize: 15, fontWeight: '600', color: COLORS.text },
