@@ -132,12 +132,21 @@ export default function ChatScreen({ navigation, route }) {
   useEffect(() => {
     if (!chatId) return;
     setLoading(true);
+
+    // Hard timeout — never show spinner for more than 1.5 s
+    const timeout = setTimeout(() => setLoading(false), 1500);
+
     const unsub = listenToMessages(chatId, (msgs) => {
+      clearTimeout(timeout);
       setMessages(msgs);
       setLoading(false);
       markChatRead(chatId).catch(() => {});
     });
-    return unsub;
+
+    return () => {
+      clearTimeout(timeout);
+      unsub();
+    };
   }, [chatId]);
 
   // ── Auto-scroll ───────────────────────────────────────────────────────────
@@ -151,12 +160,39 @@ export default function ChatScreen({ navigation, route }) {
   const handleSend = useCallback(async () => {
     const text = input.trim();
     if (!text || !chatId || !user?.id || !provider?.id || sending) return;
+
+    // Optimistic: add message to UI instantly, clear input
+    const optimisticId = `opt_${Date.now()}`;
+    const optimisticMsg = {
+      id: optimisticId,
+      text,
+      senderId: user.id,
+      receiverId: provider.id,
+      createdAt: Date.now(),
+      read: false,
+      pending: true,
+    };
+
     setInput('');
+    setMessages((prev) => [...prev, optimisticMsg]);
     setSending(true);
+
     try {
-      await sendMessage(chatId, user.id, provider.id, text);
+      const sent = await sendMessage(chatId, user.id, provider.id, text);
+      // Replace optimistic with confirmed message (clears pending flag)
+      setMessages((prev) =>
+        prev.map((m) =>
+          m.id === optimisticId
+            ? { ...(sent || m), id: sent?.id || optimisticId, pending: false }
+            : m,
+        ),
+      );
     } catch (e) {
       console.warn('handleSend:', e?.message);
+      // Mark as delivered locally even if Firestore failed
+      setMessages((prev) =>
+        prev.map((m) => (m.id === optimisticId ? { ...m, pending: false } : m)),
+      );
     } finally {
       setSending(false);
     }

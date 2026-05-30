@@ -156,9 +156,9 @@ export async function sendMessage(chatId, senderId, receiverId, text) {
 export function listenToMessages(chatId, callback) {
   let unsubscribed = false;
 
-  // Deliver cached messages immediately while Firestore connects
+  // Always deliver cached messages immediately (even empty — stops loading spinner)
   loadLocalMessages(chatId).then((cached) => {
-    if (!unsubscribed && cached.length > 0) callback(cached);
+    if (!unsubscribed) callback(cached);
   });
 
   try {
