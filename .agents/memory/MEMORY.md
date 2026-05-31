@@ -1,3 +1,2 @@
-- [OrderMe app architecture](orderme-arch.md) — React Navigation (not Expo Router) within the Expo 54 scaffold; src/ copied from extracted zip.
-- [OrderMe navigation nesting](orderme-nav-nesting.md) — Tab screens (Services, Chats, Home, Map, Profile) must be navigated via MainTabs, never directly by name.
-- [Firebase RTDB permission handling](orderme-firebase-perms.md) — RTDB returns permission_denied for all user paths in web preview; use AsyncStorage-first pattern.
+- [EAS Gradle worklets conflict](eas-gradle-worklets-conflict.md) — react-native-worklets 0.5.1 duplicates Reanimated 4.x C++ worklets runtime, crashing Gradle.
+- [EAS Build archive trick](eas-build-archive.md) — use GIT_INDEX_FILE=/tmp/eas-git-index to bypass Replit git write restrictions when running eas build.
